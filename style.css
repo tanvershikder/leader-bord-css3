@@ -3,6 +3,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 /* common style and utilitis */
+.nab-item{
+    width: 100%;
+}
+.fav-danger{
+    font-size: 30px;
+    margin-right: 20px;
+}
+.nav-items{
+    background-color:#562EFF;
+    width: 1440px;
+    height: 94px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+/* .logo-name{
+    left: 250px;
+} */
+.about-sec{
+    display: flex;
+    align-items: center;
+}
+.about-sec img{
+    width: 51px;
+    height: 51px;
+    border-radius: 50%;
+}
+.about-sec a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: white;
+    font-size: 16px;
+}
+/* navber end  */
 
 body{
     font-family: 'Poppins', sans-serif;
